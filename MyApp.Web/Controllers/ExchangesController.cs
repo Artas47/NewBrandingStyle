@@ -8,7 +8,7 @@ namespace MyApp.Web.Controllers
 {
     public class ExchangesController : Controller
     {
-        public  IActionResult Display()
+        public IActionResult Display()
         {
             return View();
         }
