@@ -17,7 +17,7 @@ namespace MyApp.Web.Controllers
         }
 
         [HttpPost]
-        public IActionResult CompanyAdded(CompanyModel company)
+        public IActionResult Index(CompanyModel company)
         {
             var viewModel = new CompanyAddedViewModel
             {
