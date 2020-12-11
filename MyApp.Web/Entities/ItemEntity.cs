@@ -1,4 +1,9 @@
-﻿namespace MyDb.Web.Entities
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace MyApp.Web.Entities
 {
     public class ItemEntity
     {

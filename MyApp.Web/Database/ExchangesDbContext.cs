@@ -1,7 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using MyDb.Web.Entities;
+using MyApp.Web.Entities;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
-namespace MyDb.Web.Database
+namespace MyApp.Web.Database
 {
     public class ExchangesDbContext : DbContext
     {
@@ -9,12 +13,10 @@ namespace MyDb.Web.Database
         {
 
         }
-
         public DbSet<ItemEntity> Items { get; set; }
-
         protected override void OnModelCreating(ModelBuilder builder)
         {
-            //on create
+
         }
     }
 }
