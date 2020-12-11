@@ -18,7 +18,7 @@ namespace MyApp.Web.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("NewBrandingStyle.Web.Entities.ItemEntity", b =>
+            modelBuilder.Entity("MyApp.Web.Entities.ItemEntity", b =>
             {
                 b.Property<int>("Id")
                     .ValueGeneratedOnAdd()

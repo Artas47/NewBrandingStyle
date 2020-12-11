@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MyApp.Web.Models;
 
-namespace NewBrandingStyle.Web.Controllers
+namespace MyApp.Web.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
